@@ -27,7 +27,10 @@ gulp.task("style", function() {
       "node_modules/normalize.css/normalize.css",
       "node_modules/slick-carousel/slick/slick.css",
       "node_modules/magnific-popup/dist/magnific-popup.css",
-      "node_modules/rateyo/src/jquery.rateyo.css"
+      "node_modules/rateyo/src/jquery.rateyo.css",
+      "node_modules/jQuery-Plugin-To-Create-Animated-Skill-Experience-Bars-Skillset-js/css/fontello.css",
+      "node_modules/pe-icon-7-stroke/css/pe-icon-7-stroke.css"
+
     ])
     .pipe(concat("libs.min.css"))
     .pipe(cssmin())
@@ -39,7 +42,8 @@ gulp.task("script", function() {
       "node_modules/slick-carousel/slick/slick.js",
       "node_modules/magnific-popup/dist/jquery.magnific-popup.js",
       "node_modules/mixitup/dist/mixitup.js",
-      "node_modules/rateyo/src/jquery.rateyo.js"
+      "node_modules/rateyo/src/jquery.rateyo.js",
+      "node_modules/jQuery-Plugin-To-Create-Animated-Skill-Experience-Bars-Skillset-js/js/skillset.js"
 
     ])
     .pipe(concat("libs.min.js"))
